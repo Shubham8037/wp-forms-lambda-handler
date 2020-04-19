@@ -1,0 +1,23 @@
+service: wp-forms-lambda-handler
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: us-east-1
+
+  # To invoke other function
+  #iamRoleStatements:
+  #  - Effect: Allow
+  #    Action:
+  #      - lambda:InvokeFunction
+  #      - lambda:InvokeAsync
+  #    Resource: "*"
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          method: POST

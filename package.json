@@ -1,0 +1,21 @@
+{
+  "name": "wp-forms-lambda-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "libphonenumber-js": "^1.7.51",
+    "mongodb": "^3.5.7",
+    "nodemailer": "^6.4.6",
+    "querystring": "^0.2.0",
+    "twilio": "^3.42.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
