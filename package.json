@@ -8,7 +8,7 @@
     "dotenv": "^8.2.0",
     "libphonenumber-js": "^1.7.51",
     "mongodb": "^3.5.7",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "querystring": "^0.2.0",
     "twilio": "^3.42.2"
   },
